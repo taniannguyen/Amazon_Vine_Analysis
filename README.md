@@ -1,4 +1,4 @@
-# Amazon VineAnalysis
+# Amazon Vine Analysis
 ## Overview of the analysis: 
 ### Purpose
 The purpose of this analysis is to analyze Amazon reviews written by members of the paid Amazon Vine program, specifically for video games. The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. Companies like SellBy pay a small fee to Amazon and provide products to Amazon Vine members, who are then required to publish a review. There are 50 datasets that are available. Each one contains reviews of a specific product, from clothing apparel to wireless products. For this analysis I chose one of the datasets and used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. By using PySpark to determine if there is any bias toward favorable reviews from Vine members in the dataset. Using the findings report to the SellBy stakeholders.
