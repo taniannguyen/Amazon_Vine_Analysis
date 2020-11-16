@@ -8,16 +8,16 @@ The purpose of this analysis is to analyze Amazon reviews written by members of 
 ### Results
 
 How many Vine reviews and non-Vine reviews were there?
-- Vine reviews: 94
-- Non-Vine reviews: 40,471
+- Vine reviews (paid): 94
+- Non-Vine reviews (unpaid): 40,471
 
 How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-- Vine reviews that were 5 stars: 48
-- Non-Vine reviews that were 5 stars: 15,663
+- Vine reviews that were 5 stars (paid): 48
+- Non-Vine reviews that were 5 stars (unpaid): 15,663
 
 What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
-- The percentage of Vine reviews that were 5 stars: 51.06%
-- The percentage of Non-Vine reviews that were 5 stars: 38.70%
+- The percentage of Vine reviews that were 5 stars (paid): 51.06%
+- The percentage of Non-Vine reviews that were 5 stars (unpaid): 38.70%
 
 #### Vine Analysis from PySpark
 
